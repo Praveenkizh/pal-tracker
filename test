@@ -1,1 +1,2 @@
-test add
+Usage of spring profile is not recommended. Use feature flags.
+for local create a run task in gradle.
