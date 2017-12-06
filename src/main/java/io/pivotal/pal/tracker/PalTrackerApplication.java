@@ -21,10 +21,6 @@ public class PalTrackerApplication {
         SpringApplication.run(PalTrackerApplication.class, args);
     }
 
-    @Value("${SPRING_DATASOURCE_URL}")
-    String url;
-
-
     @Bean
     TimeEntryRepository timeEntryRepository(DataSource dataSource) {
         return new JdbcTimeEntryRepository(dataSource);
