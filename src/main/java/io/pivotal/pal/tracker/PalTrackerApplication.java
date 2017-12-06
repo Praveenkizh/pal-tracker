@@ -26,8 +26,8 @@ public class PalTrackerApplication {
 
 
     @Bean
-    TimeEntryRepository timeEntryRepository() {
-        return new JdbcTimeEntryRepository(DataSourceBuilder.create().url(url).build());
+    TimeEntryRepository timeEntryRepository(DataSource dataSource) {
+        return new JdbcTimeEntryRepository(dataSource);
     }
 
     @Bean
