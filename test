@@ -1,2 +1,7 @@
 Usage of spring profile is not recommended. Use feature flags.
 for local create a run task in gradle.
+use gradle
+
+current app name  venerable
+
+zero downtime deployment.
