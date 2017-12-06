@@ -5,3 +5,5 @@ use gradle
 current app name  venerable
 
 zero downtime deployment.
+
+not have functional strucutre - have feature specific.
